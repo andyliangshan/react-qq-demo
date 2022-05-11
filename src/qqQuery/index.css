@@ -1,0 +1,44 @@
+.showQQInfo {
+    width: 300px;
+    padding: 10px;
+    height: 100px;
+    margin: 10px auto;
+    background-color: #ccc;
+    border-radius: 8px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left {
+    width: 100px;
+}
+
+.left img {
+    border-radius: 50%;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.right .right-t {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.right .right-b {
+    color: #999;
+}
+
+.loading {
+    padding-top: 20px;
+}
+
+.queryRes {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #f00;
+}
